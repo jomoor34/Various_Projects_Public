@@ -15,3 +15,5 @@ print("Ciphered text: {0}".format(ciphered_text)) #Must grab ciphered text from 
 #Write password to file
 with open('/path/to/keyfolder/keyfile.bin', 'wb') as key_file:
     key_file.write(ciphered_text)
+
+#VERY IMPORTANT: Remember to set .bin file(s) to 600 level permissions (sudo chmod 600 file.bin) so no other user can use bin file
