@@ -1,6 +1,6 @@
 #!/bin
 #This script gets the current public IP of the network and updates GoDaddy DNS records
-#to keep DNS records up to date
+#to keep DNS records up to date. It uses encryption to protect the API keys
 
 from pif import get_public_ip
 from godaddypy import Client, Account
